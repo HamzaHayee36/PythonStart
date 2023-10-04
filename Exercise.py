@@ -35,11 +35,23 @@ string="Hello\n"
 print(string*10)
 
 # 6. Set your name and age variables in one line with multiple assignment
+name, age = "Hamza", 25
+print(name,age)
 
 # 7. Create two strings and then create a third variable combining both of the two original strings.
+intro_prefix = "My name is "
+name_value = "Hamza"
+full_intro = intro_prefix + name_value
+print(full_intro)
 
 # 8. Create a string and print the fourth letter of the word.
+sen="My name is fajjan"
+print(sen[3])
 
 # 9. Create a string and print the letters from index 0 to 5.
+sen="I'm in love with python programming language"
+print(sen[0:4])
 
 # 10. Create a variable and print all the letters from the first index until the end.
+sen="I'm in love with python programming language"
+print(sen[0:])
